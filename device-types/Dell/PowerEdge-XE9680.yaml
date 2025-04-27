@@ -1,0 +1,50 @@
+---
+manufacturer: Dell
+model: PowerEdge XE9680
+slug: dell-poweredge-xe9680
+u_height: 6
+is_full_depth: true
+weight: 114.05
+weight_unit: kg
+airflow: front-to-rear
+front_image: true
+rear_image: true
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Gig-E 2
+    type: 1000base-t
+  - name: iDRAC
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PSU 1
+    position: "1"
+  - name: PSU 2
+    position: "2"
+  - name: PSU 3
+    position: "3"
+  - name: PSU 4
+    position: "4"
+  - name: PSU 5
+    position: "5"
+  - name: PSU 6
+    position: "6"
+  - name: OCP 3.0
+    position: OCP-1
+  - name: SXM5
+    position: SXM-1
+  - name: SXM5
+    position: SXM-2
+  - name: SXM5
+    position: SXM-3
+  - name: SXM5
+    position: SXM-4
+  - name: SXM5
+    position: SXM-5
+  - name: SXM5
+    position: SXM-6
+  - name: SXM5
+    position: SXM-7
+  - name: SXM5
+    position: SXM-8
