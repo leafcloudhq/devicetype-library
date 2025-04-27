@@ -1,0 +1,43 @@
+---
+manufacturer: ASUS
+model: RS500A-E11-RS12U
+slug: asus-rs500a-e11-rs12u
+u_height: 1
+is_full_depth: true
+weight: 17
+weight_unit: kg
+front_image: true
+rear_image: true
+comments: https://servers.asus.com/products/servers/rack-servers/RS500A-E11-RS12U
+console-ports:
+  - name: Rear Serial
+    type: de-9
+interfaces:
+  - name: ASMB10-iKVM
+    type: 1000base-t
+    mgmt_only: true
+  - name: Network 1
+    type: 1000base-t
+  - name: Network 2
+    type: 1000base-t
+module-bays:
+  - name: PSU-1
+    label: "1"
+    position: PSU-1
+  - name: PSU-2
+    label: "2"
+    position: PSU-2
+  - name: PCIe slot 1
+    position: "1"
+    description: PCIe 4.0 x16
+  - name: PCIe slot 2
+    position: "2"
+    description: PCIe 4.0 x16
+  - name: PCIe slot 3
+    position: "3"
+    description: PCIe 4.0 x16
+  - name: PCIe slot 4
+    position: "4"
+    description: PCIe 4.0 x16
+  - name: OCP 3.0
+    position: OCP-1
