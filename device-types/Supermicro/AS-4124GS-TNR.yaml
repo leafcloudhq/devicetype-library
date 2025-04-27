@@ -1,0 +1,68 @@
+---
+manufacturer: Supermicro
+model: AS-4124GS-TNR
+slug: supermicro-as-4124gs-tnr
+part_number: "AS -4124GS-TNR"
+comments: "[User's Manual](https://www.supermicro.com/manuals/superserver/4U/MNL-2302.pdf)<br />[Datasheet](https://www.supermicro.com/en/products/system/datasheet/as-4124gs-tnr+)"
+u_height: 4
+is_full_depth: true
+weight: 45.3
+weight_unit: kg
+airflow: front-to-rear
+front_image: true
+rear_image: true
+console-ports:
+  - name: Serial
+    type: de-9
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Gig-E 2
+    type: 1000base-t
+  - name: BMC
+    type: 1000base-t
+    mgmt_only: true
+    description: Dedicated IPMI LAN port
+module-bays:
+  - name: Slot 1
+    position: "1"
+    description: PCIe 5.0 x16 slot
+  - name: Slot 2
+    position: "2"
+    description: PCIe 5.0 x8 slot
+  - name: Slot 3
+    position: "3"
+    description: PCIe 5.0 x16 slot
+  - name: Slot 4
+    position: "4"
+    description: PCIe 5.0 x8 slot
+  - name: Slot 5
+    position: "5"
+    description: PCIe 5.0 x16 slot
+  - name: Slot 6
+    position: "6"
+    description: PCIe 5.0 x16 slot
+  - name: Slot 7
+    position: "7"
+    description: PCIe 5.0 x16 slot
+  - name: Slot 8
+    position: "8"
+    description: PCIe 5.0 x16 slot
+  - name: Slot 9
+    position: "9"
+    description: PCIe 5.0 x16 slot
+  - name: Slot A1
+    position: A1
+    description: PCIe 5.0 x16 AIOM
+  - name: PSU1
+    position: "1"
+    maximum_draw: 2000
+  - name: PSU2
+    position: "2"
+    maximum_draw: 2000
+  - name: PSU3
+    position: "3"
+    maximum_draw: 2000
+  - name: PSU4
+    position: "4"
+    maximum_draw: 2000
