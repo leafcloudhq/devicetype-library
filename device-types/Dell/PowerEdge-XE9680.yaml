@@ -32,19 +32,27 @@ module-bays:
     position: "6"
   - name: OCP 3.0
     position: OCP-1
-  - name: SXM5
+  - name: SXM5-1
     position: SXM-1
-  - name: SXM5
+    label: "1"
+  - name: SXM5-2
     position: SXM-2
-  - name: SXM5
+    label: "2"
+  - name: SXM5-3
     position: SXM-3
-  - name: SXM5
+    label: "3"
+  - name: SXM5-4
     position: SXM-4
-  - name: SXM5
+    label: "4"
+  - name: SXM5-5
     position: SXM-5
-  - name: SXM5
+    label: "5"
+  - name: SXM5-6
     position: SXM-6
-  - name: SXM5
+    label: "6"
+  - name: SXM5-7
     position: SXM-7
-  - name: SXM5
+    label: "7"
+  - name: SXM5-8
     position: SXM-8
+    label: "8"
